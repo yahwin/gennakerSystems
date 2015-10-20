@@ -149,19 +149,19 @@ a:focus {
     }
 }
 
-.intro {
+.intro { /*Top logo*/
     display: table;
     width: 100%;
     height: auto;
     padding: 200px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/genSysLogo.png) no-repeat bottom center scroll;
+    background: url(../img/logo2.png) no-repeat bottom center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 .intro .intro-body {
@@ -270,11 +270,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.services-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -293,7 +293,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .services-section {
         padding: 100px 0;
     }
 
