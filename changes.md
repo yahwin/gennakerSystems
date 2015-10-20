@@ -1,5 +1,5 @@
 #Changes
-All of the CSS changes where made in the 'grayscale.css' file.
+All of the CSS changes were made in the 'grayscale.css' file.
 
 ##CHANGED
 To help you find the changes, everything that I changed from 'black' to 'white' and vice versa, I used the CHANGED syntax, so all that you have to do is go into the 'grayscale.css' file and search for CHANGED: COLOR/LOGO.
