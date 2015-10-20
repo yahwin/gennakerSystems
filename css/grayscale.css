@@ -110,7 +110,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(129, 124, 124, 0.8); /* CHANGED: no longer white on hover */
     background-color: transparent;
 }
 
@@ -157,14 +157,18 @@ a:focus {
     padding: 200px 0;
     text-align: center;
     color: #000; /*CHANGED: COLOR from #fff*/
+
     /*CHANGED: LOGO URL*/
     background: url(../img/horzBlack.png) no-repeat bottom center scroll;
     background-color: #ffffff; /*CHANGED: COLOR from #000*/;
+
     /*CHANGED: cover -> contain*/
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size: contain;
+    background-size: 70% auto;
     -o-background-size: contain;
+
+    margin-top: -150px;
 }
 
 .intro .intro-body {
@@ -277,7 +281,31 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff; /*CHANGED: COLOR from #000*/
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/concrete.png) no-repeat center center scroll;
+    background-color: #ffffff; /*CHANGED: COLOR from #000*/;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff; /*CHANGED: COLOR from #000*/
+    background: url(../img/concrete.png) no-repeat center center scroll;
+    background-color: #ffffff; /*CHANGED: COLOR from #000*/;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff; /*CHANGED: COLOR from #000*/
+    background: url(../img/concrete.png) no-repeat center center scroll;
     background-color: #ffffff; /*CHANGED: COLOR from #000*/;
     -webkit-background-size: cover;
     -moz-background-size: cover;
