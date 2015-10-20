@@ -160,10 +160,11 @@ a:focus {
     /*CHANGED: LOGO URL*/
     background: url(../img/horzBlack.png) no-repeat bottom center scroll;
     background-color: #ffffff; /*CHANGED: COLOR from #000*/;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    /*CHANGED: cover -> contain*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 .intro .intro-body {
