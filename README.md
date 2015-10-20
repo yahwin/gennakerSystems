@@ -1,2 +1,0 @@
-# gennakerSystems
-Gennaker Systems Website
