@@ -75,7 +75,7 @@ a:focus {
 
 .navbar-brand { /*Top left logo/home button */
   /*CHANGED: LOGO url*/
-  background: url(../img/powerSilver.png) no-repeat bottom center scroll;
+  background: url(../img/noText.png) no-repeat bottom center scroll;
   background-color: #000; /*CHANGED: COLOR from #ffffff*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -298,7 +298,7 @@ a:focus {
 }
 
 .quote p {
-  padding: 60px 0; 
+  padding: 60px 0;
   font-size: 24px;
   font-weight: bold;
   background-size: contain;
